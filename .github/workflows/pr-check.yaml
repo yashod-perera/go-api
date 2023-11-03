@@ -12,9 +12,7 @@ jobs:
       - name: Echo hello world
         run: |
           echo "Hello world"
-      - name: Install some thing
-        run: | 
-          apt-get install npm
+      - uses: actions/checkout@v2
    
 
         
